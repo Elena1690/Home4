@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../media/icon1.jpeg">
+    <title>Search</title>
+</head>
+<body>
+    <header>
+        <h1> <span style="color: rgb(255, 200, 0);"><i>Car Finder</i></span> - сервіс з підбору авто</h1>       
+        <img width="400" src="../media/istockphoto-1320777049-640_adpp_is.mp4" alt="car"><hr>
+    </header>
+    <audio src="../media/champion-143955.mp3" controls autoplay muted></audio><br>
+    <!-- <iframe width="400" height="200" src="https://www.youtube.com/embed/3a9gYz0H_sI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+    <form action="https://fom.in.ua/echo">
+         <fieldset>
+            <legend>Оберіть тип кузова</legend>
+                 <p>
+                     <input id="1" type="radio" name="1234">
+                     <label for="1">Седан</label><br>
+                     <input id="2" type="radio" name="1234" checked>
+                     <label for="2">Хетчбек</label><br>
+                     <input id="3" type="radio" name="1234">
+                     <label for="3">Пікап</label><br>
+                     <input id="4" type="radio" name="1234">
+                     <label for="4">Вантажівка</label>               
+                 </p>
+        </fieldset>
+        <fieldset>
+             <legend>Марка авто</legend>
+             <p>
+                <select> 
+                    <optgroup label="Нові">
+                      <option value="1">BMW</option>
+                      <option value="2">LEXUS</option>
+                      <option value="3">TOYOTA</option>
+                      <option value="4">RENO</option>
+                      <option value="5">VOLKSWAGEN</option>
+                      <option value="6">AUDI</option>
+                    </optgroup>
+                    <optgroup label="Підтримані">
+                        <option value="1">BMW</option>
+                        <option value="2">LEXUS</option>
+                        <option value="3">TOYOTA</option>
+                        <option value="4">RENO</option>
+                        <option value="5">VOLKSWAGEN</option>
+                        <option value="6">AUDI</option>
+                      </optgroup>
+                </select>
+             </p>
+        </fieldset>
+     <fieldset>
+     <legend><span style="color: chocolate;">Параметри:</span></legend>                           
+        <fieldset>
+             <legend>Країна виробник</legend>
+                <select>                  
+                      <option value="1">США</option>
+                      <option value="2">Германія</option>
+                      <option value="3">Італія</option>
+                      <option value="4">Франція</option>
+                      <option value="5">Португалія</option>
+                      <option value="6">Турція</option>
+                </select>
+        </fieldset>       
+        <fieldset>
+             <legend>Ціна</legend>
+                      <label for="number1">від</label>
+                      <input id="number1" type="number" placeholder=від min="1000" max="10000" step="500">
+                      <label for="number2">до</label>
+                      <input id="number2" type="number" placeholder=до min="10000" max="50000" step="500">            
+         </fieldset>
+         <fieldset>
+             <legend>Рік випуску</legend>
+                <label for="number3">від</label>
+                <input id="number3" type="number" placeholder=від min="2000" max="2010" step="1">
+                <label for="number4">до</label>
+                <input id="number4" type="number" placeholder=до min="2011" max="2023" step="1">            
+         </fieldset>
+         <fieldset>
+             <legend>Характеристика</legend>
+                 <ul>
+                    <li>
+                         <input id="5" type="radio" name="56" checked>
+                         <label for="5">Бита</label>                         
+                    </li>
+                 </ul>
+                 <ul>
+                    <li>
+                         <input id="6" type="radio" name="56">
+                         <label for="6"> У кредиті</label>                        
+                    </li>
+                 </ul>  
+                 <ul>
+                    <li>
+                         <input id="7" type="radio" name="78">
+                         <label for="7">Нерозмитнена</label>                        
+                    </li>
+                 </ul>  
+                 <ul>
+                    <li>
+                         <input id="8" type="radio" name="78">
+                         <label for="8">Нова</label>
+                    </li>
+                 </ul>  
+         </fieldset>               
+         <fieldset>
+             <legend>Тип палива</legend>
+                    <select>                  
+                          <option value="1">Бензин</option>
+                          <option value="2">Газ</option>
+                          <option value="3">ДТ</option>
+                    </select>
+         </fieldset>
+             <br>
+         <fieldset>            
+                      <legend>Тип коробки передач:</legend><br>              
+                      <input id="c" type="checkbox" name="c">
+                      <label for="c">Автомат</label><br>
+                      <input id="h" type="checkbox" name="h" checked>
+                      <label for="h">Механічна</label><br>
+         </fieldset>  
+             <br>
+         <fieldset>                
+                    <label for="color">Виберіть колір:</label>
+                    <input id="color" type="color">               
+         </fieldset>
+             <br>
+         <fieldset>
+             <legend>Комфорт:</legend>
+                 <p>
+                    <input id="ch1" type="checkbox" name="ch1">
+                    <label for="ch1">Люк</label><br>
+                    <input id="ch2" type="checkbox" name="ch2">
+                    <label for="ch2">Шкіряний салон</label><br>
+                    <input id="ch3" type="checkbox" name="ch3" checked>
+                    <label for="ch3">Кондиціонер</label><br> 
+                    <input id="ch4" type="checkbox" name="ch4">
+                    <label for="ch4">Підігрів керма</label><br> 
+                 </p>
+         </fieldset>          
+     </fieldset>
+             <br>       
+                 <h4>Повідомлення:</h4>               
+                 <label for="messege"></label>
+                 <textarea id="messege" cols="50" rows="10" placeholder="Залиште повідомлення"></textarea>                 
+             <p>
+                 <input type="reset" value="reset">
+                 <button type="submit">send</button>
+             </p>
+    </form>
+    <footer> 
+        <br>
+        <hr>          
+           <h5>Контактна інформація:</h5>
+             <img width="20" src="../media/viber.png" alt="viber">
+             <a href="viber:380932444635">+3 8 (093) 2 444 635 </a>
+             <br>
+             <img width="20" src="../media/звонок.png" alt="tel">
+             <a href="tel:380932444635">+3 8 (093) 2 444 635 </a>          
+    </footer>
+</body>
+</html>
